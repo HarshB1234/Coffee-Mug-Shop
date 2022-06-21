@@ -1,0 +1,275 @@
+.navbar-brand b{
+    color: black;
+    font-size: 24px;
+}
+
+.nav-item {
+    padding: 10px 0 10px 20px;
+}
+
+.nav-link {
+    font-size: 14px;
+    color: rgb(163, 154, 154);
+    font-weight: 700;
+    font-family: 'Karla', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.nav-item a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: rgb(218, 159, 83);
+}
+
+.navbar a:hover, .navbar a .active, .navbar a:focus, .navbar .active {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover:after, .navbar a .active:after, .navbar a:focus:after, .navbar .active:after {
+    width: 100%;
+    transition:0.3s;
+}
+
+#cartlogo {
+    height: 20px;
+    width: 16px;
+    margin-right: 10px;
+}
+
+#cartbadge {
+    margin-left: 8px;
+}
+
+#banner {
+    background: url('banner.jpg') no-repeat 0 ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#banner-title {
+    margin: 110px auto;
+}
+
+#banner-title h1 {
+    font-size: 48px;
+    color: #FFFFFF;
+    font-family: 'Karla', sans-serif;
+}
+
+#p1 {
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-family: 'Karla', sans-serif;
+    letter-spacing: 2px;
+}
+
+#p2 {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+#bannerbutton {
+    border: 0;
+    padding: 18px 24px;
+    font-size: 12px;
+    font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+
+#section1 {
+    margin: 90px auto 0px;
+}
+
+#title1 {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+}
+
+#section1 p {
+    font-size: 16px;
+    text-align: center;
+    color: rgb(161, 152, 152);
+}
+
+#section1 a {
+    font-size: 16px;
+    color: rgb(146, 78, 23);
+    text-decoration: underline;
+    text-decoration-color: rgb(211, 183, 142);
+}
+
+#section1 a:hover {
+    text-decoration-color: rgb(146, 78, 23);
+}
+
+.title pre {
+    font-size: 14px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgb(119, 118, 118);
+    margin-top: 90px;
+}
+
+.title {
+    padding-bottom: 70px;
+}
+
+.card-body {
+    margin-top: 20px;
+}
+
+.fc a {
+    color: black;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.fc p {
+    color: rgb(143, 138, 138);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.mc {
+    padding-bottom: 35px;
+}
+
+.mc a {
+    color: black;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.mc p {
+    color: rgb(143, 138, 138);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#part2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#e1 {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    color: rgb(121, 105, 105);
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+}
+
+#e2 {
+    font-size: 35px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+#e3 {
+    font-size: 16px;
+    color: rgb(121, 105, 105);
+    line-height: 25px;
+}
+
+#e4 {
+    border: 0;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+}
+
+.pc a {
+    color: black;
+    font-size: 22px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.pc p {
+    color: rgb(143, 138, 138);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#pdate {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#section6 h2 {
+    padding-bottom: 30px;
+}
+
+#section6 h3 {
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+}
+
+#logo2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#s7c1 {
+    font-size: 14px;
+    color: rgb(176, 167, 167);
+    padding-top: 20px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+}
+
+.s7title {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: rgb(114, 109, 109);
+}
+
+.s7ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.s7li {
+    font-size: 14px;
+    color: rgb(176, 167, 167);
+    font-family: 'Karla', sans-serif;
+    padding-top: 15px;
+
+}
+
+#s7c4p {
+    font-size: 14px;
+    color: rgb(176, 167, 167);
+    padding-top: 20px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+}
+
+#s7c4a {
+    font-size: 22px;
+    color: black;
+    padding-top: 20px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+}
